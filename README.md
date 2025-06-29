@@ -1,7 +1,9 @@
-Simple undertale remap script.
+# Simple UNDERTALE remap script.
 
 - Adds W, A, S, D controls instead of arrow keys.
-- Also remaps Z and X to M and N
+- Remaps Z and X to M and N
+
+# Extending the program
 
 To add custom keymaps simply edit the hashmap accordingly.
 For example:
@@ -10,11 +12,11 @@ For example:
     "w": "up" # New key -> Key to be remapped
 }`
 
-Dependencies:
-keyboard module: pip install keyboard
+# Dependencies
+keyboard module: `pip install keyboard`
 
 Works both on Windows and Linux (requires sudo)
-to run it on Windows with Python already installed, open a CMD window and type:
+To execute it on Windows with Python already installed, open a CMD window and type:
 
 `python path\to\main.py`
 
