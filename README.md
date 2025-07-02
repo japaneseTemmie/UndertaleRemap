@@ -20,7 +20,8 @@ if you're using a venv change the python3 to the path of the interpreter in the 
 
 # Extending the program
 
-To add custom keymaps simply edit the hashmap accordingly.
+To add custom keymaps, simply edit the `keys` hashmap accordingly.
+
 For example:
 
 `keys = {"w": "up", "z": "m"} # New key -> Key to be remapped`
