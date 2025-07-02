@@ -3,14 +3,7 @@
 - Adds W, A, S, D controls instead of arrow keys.
 - Remaps Z and X to M and N
 
-# Extending the program
-
-To add custom keymaps simply edit the hashmap accordingly.
-For example:
-
-`keys = {"w": "up", "z": "m"} # New key -> Key to be remapped`
-
-# Dependencies
+# Dependencies and running the script
 keyboard module: `pip install keyboard`
 
 Works both on Windows and Linux (requires sudo)
@@ -24,3 +17,10 @@ to run it on ✨Linux✨:
 `sudo python3 path/to/main.py`
 
 if you're using a venv change the python3 to the path of the interpreter in the venv.
+
+# Extending the program
+
+To add custom keymaps simply edit the hashmap accordingly.
+For example:
+
+`keys = {"w": "up", "z": "m"} # New key -> Key to be remapped`
