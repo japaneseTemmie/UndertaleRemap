@@ -8,11 +8,7 @@
 To add custom keymaps simply edit the hashmap accordingly.
 For example:
 
-`keys = {
-
-    "w": "up" # New key -> Key to be remapped
-
-}`
+`keys = {"w": "up", "z": "m"} # New key -> Key to be remapped`
 
 # Dependencies
 keyboard module: `pip install keyboard`
