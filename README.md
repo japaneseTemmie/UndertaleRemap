@@ -14,6 +14,7 @@ For example:
 keyboard module: `pip install keyboard`
 
 Works both on Windows and Linux (requires sudo)
+
 To execute it on Windows with Python already installed, open a CMD window and type:
 
 `python path\to\main.py`
