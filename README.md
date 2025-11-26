@@ -3,10 +3,12 @@
 - Adds W, A, S, D controls instead of arrow keys.
 - Remaps Z and X to M and N
 
-# Dependencies and running the script
-keyboard module: `pip install keyboard`
+All original controls can still be used even if the script is active.
 
+# Dependencies and running the script
 Works both on Windows and Linux (requires sudo)
+
+Install dependencies: `pip install requirements.txt`
 
 To execute it on Windows with Python already installed, open a CMD window and type:
 
@@ -17,6 +19,8 @@ to run it on ✨Linux✨:
 `sudo python3 path/to/main.py`
 
 if you're using a venv change the python3 to the path of the interpreter in the venv.
+
+To exit the script, hold the SHIFT key.
 
 # Extending the program
 
